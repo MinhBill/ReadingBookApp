@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/lobster_regular"
+        android:text="Đăng nhập"
+        android:textColor="#2a1fc5"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.213" />
+
+    <EditText
+        android:id="@+id/editMatKhau"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/edit_dangnhap"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTaiKhoan"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTaiKhoan"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/edit_dangnhap"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/bg_btn"
+        android:fontFamily="@font/merriweather_bold"
+        android:text="Đăng nhập"
+        android:textColor="#F1E6E6"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editMatKhau" />
+
+    <Button
+        android:id="@+id/button_Sign"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/bg_btn"
+        android:fontFamily="@font/merriweather_bold"
+        android:text="Đăng ký"
+        android:textColor="#F3EFEF"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_login" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="251dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

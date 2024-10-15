@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="101dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/editTextHoten"
+        android:layout_width="284dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="228dp"
+        android:background="@drawable/bg_edit"
+        android:ems="10"
+        android:hint="Họ tên"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="316dp"
+        android:text="Thời gian"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:text="Đặt phòng đọc sách"
+        android:textColor="#050C9C"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonXacnhan1"
+        android:layout_width="284dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="404dp"
+        android:background="@drawable/bg_btn"
+        android:text="Xác nhận"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="77dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="304dp"
+        android:background="@drawable/bg_edit"
+        android:ems="10"
+        android:inputType="time"
+        android:paddingLeft="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="124dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="304dp"
+        android:background="@drawable/bg_edit"
+        android:ems="10"
+        android:inputType="date"
+        android:paddingLeft="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.775"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

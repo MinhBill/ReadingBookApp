@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:paddingTop="100dp">
+
+
+    <EditText
+        android:id="@+id/editTextMK"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/edittext_bg"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+
+    <TextView
+        android:id="@+id/dangky"
+        android:layout_width="314dp"
+        android:layout_height="117dp"
+        android:fontFamily="@font/merriweather_bold"
+        android:gravity="center"
+        android:paddingTop="50dp"
+        android:text="Đăng ký"
+        android:textColor="@color/purple_700"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/edittext_bg"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="Tên"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="#060607"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dangky" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="345dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:hint="Số điện thoại"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/edittext_bg"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="#070809"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextName" />
+
+    <Button
+        android:id="@+id/button_DK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_btn"
+        android:fontFamily="@font/merriweather_bold"
+        android:text="Đăng ký"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMK" />
+
+    <Button
+        android:id="@+id/button_DN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_btn"
+        android:fontFamily="@font/merriweather_bold"
+        android:text="Đăng nhập"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMK" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="112dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

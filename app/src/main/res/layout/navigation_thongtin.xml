@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/gengar_5"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/TEXT_NAME"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="95dp"
+            android:fontFamily="@font/merriweather_italic"
+            android:text="Gengar"
+            android:textColor="#F4F0F0"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"></TextView>
+
+        <TextView
+            android:id="@+id/Text_Gmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/merriweather_italic"
+            android:text="Gengar@gmail.com"
+            android:textColor="#EF0606"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/TEXTTrangThai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1dp"
+            android:fontFamily="@font/merriweather_italic"
+            android:text="Online"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+</LinearLayout>
